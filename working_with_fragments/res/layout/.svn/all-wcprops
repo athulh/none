@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/2/trunk/res/layout
+END
+tut_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/8/trunk/res/layout/tut_view.xml
+END
+list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/8/trunk/res/layout/list_item.xml
+END
+tutview_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/7/trunk/res/layout/tutview_fragment.xml
+END
+tutlist_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/7/trunk/res/layout/tutlist_fragment.xml
+END

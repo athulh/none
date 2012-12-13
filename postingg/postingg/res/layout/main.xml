@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+    <LinearLayout
+		    android:id="@+id/aaaa"
+		    android:layout_height="wrap_content" android:layout_gravity="center_vertical|center"
+		    android:layout_x="51dp"
+		    android:layout_y="7dp" android:layout_width="fill_parent" android:orientation="vertical">
+		    <ImageView  android:layout_height="wrap_content"
+    			android:layout_width="wrap_content" android:id="@+id/imageView1"
+    			android:layout_gravity="center"></ImageView>
+		</LinearLayout>
+    <RelativeLayout android:id="@+id/LinearLayout1" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+           <Button android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:text="Button" android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:id="@+id/btnsend" android:text="send"></Button>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView1" android:layout_centerVertical="true" android:layout_centerHorizontal="true" android:text="posting screen"></TextView>
+ </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:id="@+id/LinearLayout1" android:layout_height="wrap_content" android:layout_weight="0.14">
+        <EditText android:layout_width="match_parent" android:id="@+id/editText1" android:inputType="textMultiLine" android:layout_alignParentTop="true" android:layout_height="100px" android:maxLength="140" android:maxWidth="140dip" android:layout_toRightOf="@+id/imgcamera"></EditText>
+        <ImageView android:background="@drawable/camera" android:id="@+id/imgcamera" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"></ImageView>
+    </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:id="@+id/LinearLayout1" android:layout_height="wrap_content" android:layout_weight="0.14">
+        <ImageView android:layout_height="wrap_content" android:id="@+id/imgfacebook" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true"></ImageView>
+        <ImageView android:layout_height="wrap_content" android:id="@+id/imgtwitter" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_toLeftOf="@+id/imgfacebook" android:layout_marginRight="75dp"></ImageView>
+        
+    
+    </RelativeLayout>
+    <TableRow android:layout_width="match_parent" android:id="@+id/tableRow1" android:layout_height="wrap_content" android:layout_weight="0.20">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/img1"></ImageView>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/img2"></ImageView>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/img3"></ImageView>
+    </TableRow>
+</LinearLayout>
